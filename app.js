@@ -1,6 +1,6 @@
 import express from 'express';
 import cors from 'cors';
-import requestTime from './middleware/RequestTime.js';
+import requestTime from './middleware/requestTime.js';
 import welcome from './helpers/welcome.js';
 import { router as monthlyBalanceRouter } from './routes/monthlyBalanceRoutes.js';
 import globalErrorHandler from './helpers/globalErrorHandler.js';
