@@ -1,4 +1,4 @@
-import MonthlyBalance from '../model/MonthlyBalance.js';
+import MonthlyBalance from '../model/monthlyBalance.js';
 import { catchAsync } from '../helpers/utils.js';
 import AppError from '../helpers/appError.js';
 import sendResponse from '../helpers/sendResponse.js';
