@@ -1,0 +1,32 @@
+.landingPage {
+  min-height: 100vh;
+  background: url('/src/assets/bg.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.heading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-10%, -52%);
+
+  & h1 {
+    font-size: 12rem;
+    font-weight: 900;
+    line-height: 1;
+    letter-spacing: 2.5px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.15);
+    padding: 5rem;
+    display: inline-block;
+  }
+
+  & .progressBarInner {
+    position: relative;
+    background-color: #646cff;
+    height: 0.5rem;
+    transition: width 0.5s linear;
+  }
+}

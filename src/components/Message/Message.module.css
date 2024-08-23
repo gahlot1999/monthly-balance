@@ -1,0 +1,12 @@
+.messageContainer {
+  font-size: 2rem;
+  background-color: #181818e6;
+  color: #ff5555;
+  width: 50%;
+  min-height: 100px;
+  margin-inline: auto;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
