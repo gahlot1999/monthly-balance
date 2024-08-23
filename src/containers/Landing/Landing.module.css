@@ -30,3 +30,14 @@
     transition: width 0.5s linear;
   }
 }
+
+@media (width < 500px) {
+  .heading {
+    transform: translate(-50%, -60%);
+
+    & h1 {
+      font-size: 8rem;
+      padding: 4rem;
+    }
+  }
+}

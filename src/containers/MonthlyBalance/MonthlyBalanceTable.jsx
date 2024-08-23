@@ -22,8 +22,8 @@ function MonthlyBalanceTable(props) {
           <tr>
             <th>Month</th>
             <th>Balance</th>
-            <th>Post Salary</th>
-            <th>Post Expenses</th>
+            <th>Salary</th>
+            <th>Expenses</th>
             <th>Actions</th>
           </tr>
         </thead>

@@ -17,6 +17,15 @@
         repeat(3, minmax(10rem, 1fr)) 12rem;
     }
 
+    @media (width < 500px) {
+      & thead tr,
+      & tbody tr {
+        grid-template-columns:
+          minmax(7rem, 1fr)
+          repeat(3, minmax(7rem, 1fr)) 8rem;
+      }
+    }
+
     & thead tr th,
     & tbody tr td {
       padding: 1rem 1rem;
